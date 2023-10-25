@@ -1,0 +1,21 @@
+.bgBody{
+    background:url("./assets/plantImage.c3bdf6366f50f26bc779.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.icon{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.App >div h1{
+   font-size: 20px;
+}
+.App > div button{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+}
