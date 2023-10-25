@@ -11,8 +11,8 @@ export default class Card extends Component {
   }
   render() {
     return (
-      <div style={{ width: "18rem" }}>
-        <div className="card-body">
+      <div className="col-sm-3" style={{ width: "20rem" }}>
+        <div className="card-body mx-3">
           {/* <i className="">{`${this.props.icon}`}</i> */}
           <Icon icon= {`${this.props.icon}`} className="icon" />
           <h3> {`${this.props.heading}`}</h3>
