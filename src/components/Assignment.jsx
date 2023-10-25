@@ -14,7 +14,7 @@ const Assignment =() =>{
       }
   };
   return (
-      <div>
+      <div className="yo">
         <h1>
           Cart {word}: {count}
         </h1>
